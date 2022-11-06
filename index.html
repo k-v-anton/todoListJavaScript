@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="persons">
+        <form action="#" name="myPost" class="persons__form">
+            <button type="button" class="my-bytton" id="deleteAllPosts">delete all</button>
+            <button type="button" class="my-bytton" id="deleteLastPost">delete last</button>
+            <input type="text" class="my-input" name="postText" id="textNewPost" placeholder="enter todo ...">
+            <button type="submit" class="my-bytton" id="addPost">add post</button>
+            <p class="posts-info" id="all-posts-info"></p>
+            <p class="posts-info" id="complited-posts-info"></p>
+            <button type="button" class="my-bytton big-btn" id="showAllPosts">show all</button>
+            <button type="button" class="my-bytton big-btn" id="showComplitedPosts">show complited</button>
+            <input type="text" placeholder="serch" class="serch" id="serchPosts">
+        </form>
+
+        <div class="persons__posts" id="posts">
+        </div>
+    </section>
+    <script src="./Js/root.js"></script>
+</body>
+
+</html>
